@@ -9,7 +9,7 @@ interface MenuOption {
 }
 
 @Component({
-  selector: 'app-side-menu-options',
+  selector: 'side-menu-options',
   imports: [RouterLink, RouterLinkActive],
   templateUrl: './side-menu-options.component.html',
 })

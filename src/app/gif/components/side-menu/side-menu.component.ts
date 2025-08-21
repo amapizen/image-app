@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
-import { SideMenuHeaderComponent } from './side-menu-header/side-menu-header.component';
-import { SideMenuOptionsComponent } from './side-menu-options/side-menu-options.component';
+import { SideMenuHeaderComponent } from '@components/side-menu/menu-header/side-menu-header.component';
+import { SideMenuOptionsComponent } from '@components/side-menu/menu-options/side-menu-options.component';
+
+//import { SideMenuHeaderComponent } from './side-menu-header/side-menu-header.component';
+//import { SideMenuOptionsComponent } from './side-menu-options/side-menu-options.component';
 
 @Component({
-  selector: 'app-side-menu',
+  selector: 'side-menu',
   imports: [SideMenuHeaderComponent, SideMenuOptionsComponent ],
   templateUrl: './side-menu.component.html',
 })
